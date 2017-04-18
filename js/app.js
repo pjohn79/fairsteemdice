@@ -1,5 +1,5 @@
 // config
-var bank = 'steemdice1';
+var bank = 'steemdoubler';
 var houseedge = 0.02;
 var maxwin_steem = 100;
 var maxwin_sbd = 25;
