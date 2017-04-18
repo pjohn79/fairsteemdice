@@ -144,7 +144,7 @@ $( document ).ready(function() {
       }
 
       chance = $("#bet_chance").val();
-      steem.broadcast.transfer(wif, user, bank, amount, '{"ui":"steemdice.net","type":"lower","number":'+chance+'}', function(err, result) {
+      steem.broadcast.transfer(wif, user, bank, amount, '{"ui":"@fairsteemdice","type":"lower","number":'+chance+'}', function(err, result) {
 
         $("#rolling").hide();
         if(err !== null) {
