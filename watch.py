@@ -9,7 +9,7 @@ import sys
 from pprint import pprint
 
 #config
-watching = 'steemdice1'
+watching = 'steemdoubler'
 maxwin = {'STEEM': 100,'SBD': 25}
 houseedge = 0.02
 
